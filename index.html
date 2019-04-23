@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mario Kart Item Simulator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+  <h1>Mario Kart Item Simulator</h1>
+
+  <!--  Instructions -->
+  <p>Enter your position and click the boxes to spin for an item, if youre above 6th place you have a 45% chance for a banana a 35% chance for a green shell a 15% chance for a star a 4% chance for a gold mushroom and a 1% chance for a bullet bill, if youre below 6th place you have a 5% chance for a banana a 5% chance for a green shell a 25% chance for a star a 35% chance for a gold mushroom and a 30% chance for a bullet bill.
+  </p>
+  <p>
+    <input id="place" type="number">
+  </p>
+  <ul>
+    <li>Banana: <span id="rawfish">0</span></li>
+    <li>Green Shell: <span id="rawSalmon">0</span></li>
+    <li>Star: <span id="Pufferfish">0</span></li>
+    <li>Golden Mushroom: <span id="clownfish">0</span></li>
+    <li>Bullet Bill: <span id="junk">0</span></li>
+  </ul>
+<p class="clear">
+  <button id="plus10">+10</button>
+</p>
+<p>
+    <button id="plus100">+100</button>
+  </p>
+  <p>
+    <button id="Until5Treasure">Until 5 bullet bills ( warning may cause website to freeze)</button>
+  </p>
+  <!-- Image & Results  -->
+  <img id="mainImg" src="images/mcFishing.jpg" style="width: 800px; height: 300px;">
+  <p id="results"></p>
+
+  <!--  LOAD JAVASCRIPT -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
